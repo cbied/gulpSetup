@@ -1,0 +1,87 @@
+body {
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0;
+    background-color: #9575cd;
+    color: floralwhite
+}
+
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.row-content {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+
+.footer {
+    background-color: #d1c4e9;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+address {
+    font-size: 80%;
+    margin: 0;
+    color: #0f0f0f;
+}
+
+@media (max-width: 575px) {
+    .smallFormat {
+        margin-top: 20px;
+    }
+
+    div.text-center {
+        margin-top: 20px;
+    }
+}
+
+.navbar-dark {
+    background-color: #512da8;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+ button a:hover {
+    text-decoration: none;
+    color: white;
+ }
+
+ .tab-content {
+     border: 1px solid #ddd;
+     border-top: none;
+     padding: 10px;
+ }
+
+ .carousel {
+    background: #512da8;
+ }
+
+ .carousel-item {
+     height: 300px;
+
+ }
+
+ .carousel-item img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     min-height: 300px;
+ }
+
+ #carouselBtn {
+     right: 0;
+     bottom: 0;
+     position: absolute;
+ }
